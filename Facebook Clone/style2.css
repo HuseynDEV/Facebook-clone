@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body {
+    background: #F0F2F5
+}
+
+.container {
+    top: 40%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-40%, -40%);
+    display: flex;
+}
+
+.container .left {
+    margin-top: 60px
+}
+
+.container .left .h1 {
+    color: #1877F2;
+    font-size: 30px
+}
+
+.container .left .h3 {
+    font-size: 27px
+}
+
+.container .right {
+    background: #FFFFFF;
+    width: 680px;
+    padding: 20px 25px;
+    box-shadow: 0 0 6px 2px rgb(196, 192, 192);
+    border-radius: 10px
+}
+
+.container .right form input {
+    width: 94%;
+    height: 50px;
+    border: 1px solid gray;
+    outline: none;
+    margin-top: 15px;
+    padding-left: 20px;
+    border-radius: 10px
+}
+
+.container .right form input:active {
+    border-color: #166FE5;
+}
+
+.container .right .button button {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #166FE5;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.container .right .button button:hover {
+    background: #1364ce;
+}
+
+.container .right .bottom {
+    border-bottom: 1px solid rgb(179, 177, 177)
+}
+
+.container .right .bottom a {
+    color: #166FE5;
+    display: block;
+    margin: 15px 0 20px 0;
+    text-align: center
+}
+
+.container .right .bottom-buton {
+    color: white;
+    background: #36A420;
+    padding: 15px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.container .right .bottom-buton:hover {
+    background: #2b8a18;
+}
+
+.bottom2 {
+    top: 76%;
+    left: 71%;
+    position: absolute;
+    transform: translate(-76%, -71%)
+}
